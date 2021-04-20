@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Van A",
+      "studentID": 111,
+      "classID": "A111",
+      "email": "NgVanA@gmail.com",
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyen Van B",
+      "studentID": 222,
+      "classID": "B222",
+      "email": "NgVanB@gmail.com",
+      "gender": "Female"
+    },
+    {
+      "id": 3,
+      "fullName": "Nguyen Van C",
+      "studentID": 333,
+      "classID": "C333",
+      "email": "NgVanC@gmail.com",
+      "gender": "Male"
+    },
+    {
+      "id": 4,
+      "fullName": "Nguyen Van D",
+      "studentID": 444,
+      "classID": "D444",
+      "email": "NgVanD@gmail.com",
+      "gender": "Male"
+    },
+    {
+      "id": 5,
+      "fullName": "Nguyen Van E",
+      "studentID": 555,
+      "classID": "E555",
+      "email": "NgVanE@gmail.com",
+      "gender": "Male"
+    }
+  ]
+}
