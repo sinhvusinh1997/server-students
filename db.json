@@ -2,7 +2,7 @@
   "students": [
     {
       "id": 1,
-      "name": "Leanne Graham",
+      "fullName": "Leanne Graham",
       "gender": "male",
       "studentID": 111,
       "email": "Sincere@april.biz",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "name": "Ervin Howell",
+      "fullName": "Ervin Howell",
       "gender": "male",
       "studentID": 222,
       "email": "Shanna@melissa.tv",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "name": "Clementine Bauch",
+      "fullName": "Clementine Bauch",
       "gender": "male",
       "studentID": 333,
       "email": "Nathan@yesenia.net",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "name": "Patricia Lebsack",
+      "fullName": "Patricia Lebsack",
       "gender": "male",
       "studentID": 444,
       "email": "Julianne.OConner@kory.org",
