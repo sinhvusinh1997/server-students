@@ -72,5 +72,10 @@
       "email": "Chaim_McDermott@dana.io",
       "classID": "A6794"
     }
-  ]
+  ],
+  "pagination": {
+    "_page": 1,
+    "_limit": 3,
+    "totalRows": 10
+  }
 }
