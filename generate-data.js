@@ -32,7 +32,7 @@ const randomStudentList = n => {
 };
 
 (() => {
-  const studentList = randomStudentList(20);
+  const studentList = randomStudentList(70);
 
   const db = {
     student: studentList,
