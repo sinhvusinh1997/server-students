@@ -16,7 +16,7 @@ const randomStudentList = n => {
       studentID: faker.datatype.number(),
       name: faker.name.findName(),
       gender: gender,
-      dayOfBirth: faker.date.betweens('1995-01-01', '2000-01-05', null).toDateString(),
+      dayOfBirth: faker.date.between('1995-01-01', '2000-01-05').toDateString(),
       phoneNumber: faker.phone.phoneNumber(),
       email: faker.internet.email(),
       avatar: faker.internet.avatar(),
