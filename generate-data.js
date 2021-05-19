@@ -10,7 +10,20 @@ const randomStudentList = n => {
 
   Array.from(new Array(n)).forEach(() => {
     let gender = faker.datatype.boolean() ? 'Female' : 'Male';
-    let dayOfBirth = faker.date.between('1995-01-01', '2000-01-05').toDateString();
+    let dayOfBirth = faker.date.between('1995-01-01', '2000-01-05').toDateString().split(" ");
+
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+    const getDay = dayOfBirth[2];
+    let getMonth = months.indexOf(dayOfBirth[1]) + 1;
+    const getYear = dayOfBirth[3];
+
+    if (getMonth < 10) {
+      getMonth = `0${getMonth}`
+    }
+
+    const dayOfBirth = `${getYear}-${getMonth}-${getDay}`;
+
 
     const student = {
       id: faker.datatype.uuid(),
