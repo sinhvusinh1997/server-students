@@ -10,13 +10,14 @@ const randomStudentList = n => {
 
   Array.from(new Array(n)).forEach(() => {
     let gender = faker.datatype.boolean() ? 'Female' : 'Male';
+    let dayOfBirth = faker.date.between('1995-01-01', '2000-01-05').toDateString();
 
     const student = {
       id: faker.datatype.uuid(),
       studentID: faker.datatype.number(),
       name: faker.name.findName(),
       gender: gender,
-      dayOfBirth: faker.date.between('1995-01-01', '2000-01-05').toDateString(),
+      dayOfBirth: dayOfBirth,
       phoneNumber: faker.phone.phoneNumber(),
       email: faker.internet.email(),
       avatar: faker.internet.avatar(),
