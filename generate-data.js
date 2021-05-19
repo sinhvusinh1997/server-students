@@ -8,7 +8,7 @@ const randomStudentList = n => {
 
   const studentList = [];
 
-  const getBirthDay = faker.date.between('1995-01-01', '2000-01-05').toDateString()
+  const getBirthDay = faker.date.toDateString();
 
   Array.from(new Array(n)).forEach(() => {
     let gender = faker.datatype.boolean() ? 'Female' : 'Male';
