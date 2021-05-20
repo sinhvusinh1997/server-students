@@ -11,7 +11,9 @@ const randomStudentList = n => {
   Array.from(new Array(n)).forEach(() => {
     let gender = faker.datatype.boolean() ? 'Female' : 'Male';
     let dayOfBirth = faker.date.between('1995-01-01', '2000-01-05').toDateString().split(" ");
-    const classID = `${faker.name.middleName()}${faker.name.middleName()}`;
+    const classID = `${faker.name.middleName()}${faker.name.middleName()}${faker.finance.creditCardCVV()}`;
+
+
     // ------------ Handle format date --------
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     const getDay = dayOfBirth[2];
