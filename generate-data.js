@@ -33,7 +33,7 @@ const randomStudentList = n => {
       gender: gender,
       classID: classID.toUpperCase(),
       dayOfBirth: dayOfBirth,
-      phoneNumber: faker.phone.phoneNumber(),
+      phoneNumber: faker.phone.phoneNumberFormat(),
       email: faker.internet.email(),
       avatar: faker.internet.avatar(),
       createdAt: Date.now(),
