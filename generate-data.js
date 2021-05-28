@@ -27,6 +27,7 @@ const randomStudentList = n => {
 
 
     const student = {
+      isSelect: false,
       id: faker.datatype.uuid(),
       studentID: faker.datatype.number(),
       name: faker.name.findName(),
