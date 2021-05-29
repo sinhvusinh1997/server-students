@@ -27,7 +27,7 @@ const randomStudentList = n => {
 
 
     const student = {
-      isChecked: false,
+      isChecked: true,
       id: faker.datatype.uuid(),
       studentID: faker.datatype.number(),
       name: faker.name.findName(),
